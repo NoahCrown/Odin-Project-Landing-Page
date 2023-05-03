@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.nav-bar {
+    background-color: #736EA1;
+    color: #F2E2D5;
+    display: flex;
+    padding: 1.5em 7.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+
+}
+
+.nav-item {
+    font-size: 1.3rem;
+}
+
+.hero-section {
+    background-color: #F2E2D5;
+    display: flex;
+    padding: 4em;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    color: #736EA1;
+    margin-bottom: .4em;
+    font-size: 2.4rem;
+}
+
+.hero-text p {
+    color: #C09573;
+    margin-bottom: .5em;
+    font-size: 1.4rem;
+}
+
+.hero-button {
+    background-color: #736EA1;
+    padding: .7em 3em;
+    border: none;
+    color: beige;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.hero-image {
+    width: 40%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 1em;
+}
+
+.choices-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    gap: 1em;
+    color: #F0D7A7;
+    background-color: #9C634F;
+}
+
+.choices-section h2 {
+    font-size: 2rem;
+
+}
+
+.choices-div p {
+    color: white;
+    text-align: center;
+}
+
+.choices-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.choices {
+    width: 20%;
+    padding: 1em;
+}
+
+.choices img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #F0D7A7;
+    margin-bottom: 1em;
+}
+
+.review-section {
+    background-color: #C37960;
+    padding: 4em 5em;
+    font-size: 1.8rem;
+    color: #fefefe;
+    line-height: 1.6;
+}
+
+.reviewer {
+    text-align: right;
+}
+
+.cta {
+    background-color: #894E3F;
+}
+
+.cta-div {
+    background-color: #EEE1BA;
+    padding: 4em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cta-button {
+    background-color: #894E3F;
+    color: white;
+    padding: 1em 5em;
+    border: none;
+    border-radius: 5px;
+}
